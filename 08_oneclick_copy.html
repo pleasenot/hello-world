@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>一键复制正文</title>
+<style>
+body { font-family: sans-serif; max-width: 800px; margin: 2em auto; padding: 0 1em; }
+button { display: block; width: 100%; padding: 1em; font-size: 1.2em; background: #1a73e8; color: white; border: none; border-radius: 8px; cursor: pointer; margin: 1em 0; }
+button:active { background: #1557b0; }
+#status { padding: 1em; border-radius: 8px; background: #f0f0f0; text-align: center; }
+#status.ok { background: #d4edda; color: #155724; }
+#status.fail { background: #f8d7da; color: #721c24; }
+#content { display: none; }
+</style>
+</head>
+<body>
+<h1>LOFTER 正文一键复制</h1>
+<p>共 112 段，点击下面按钮复制带首行缩进格式的富文本，然后去 LOFTER 编辑器粘贴</p>
+<button id="copyBtn">点我复制正文</button>
+<div id="status">等待点击…</div>
+<div id="content"><p style="text-align:center;font-weight:bold;margin:1em 0;">一</p>
+<p style="text-indent:2em;margin:0.5em 0;">云深不知处的秋雨总是下得慢吞吞的，檐角滴水敲在青石阶上，一声接一声，听得人骨头缝里都发懒。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡盘腿坐在静室的软榻上，怀里揣着一只刚从庙厨顺出来的热烤红薯，正专心致志地剥皮。红薯烤得恰到好处，焦黑的外皮一撕开，金黄的薯肉便冒出甜丝丝的热气，烫得他左右手倒换了好几下，嘴里还嘶哈嘶哈地吹着气。</p>
+<p style="text-indent:2em;margin:0.5em 0;">搁在矮几另一头的避尘忽然轻轻震了一下。</p>
+<p style="text-indent:2em;margin:0.5em 0;">那柄向来端方雅正、连剑穗子都垂得一丝不苟的佩剑，此刻正慢吞吞地往软榻边缘蹭。白玉剑鞘碰在楠木桌沿上，发出一声极轻的&quot;咔哒&quot;。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡低头瞥了一眼，乐了：&quot;哟，这是谁家的灵剑，怎么还学会自己散步了？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘停住不动，装作只是一柄毫无知觉的死物，偏偏剑柄尾端那缕浅蓝色的剑穗无风自动，极其含蓄地往魏无羡膝头勾了勾。</p>
+<p style="text-indent:2em;margin:0.5em 0;">自从半个月前夜猎归来，魏无羡一时兴起，往避尘剑鞘上贴了张自己改良过的凝神化形符，这柄跟了蓝忘机十来年的佩剑便时不时透出点活泛气儿来。它倒也没化成个人形满屋子乱跑，平日里在外人跟前依旧是那副凛然不可侵犯的仙剑模样，唯独到了静室里，尤其是到了魏无羡跟前，那点藏在冷玉剑鞘底下的小脾气就全露出来了。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;想吃？&quot;魏无羡故意把剥了一半的红薯递到剑柄上方晃了晃。</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘剑身微微不可察地往后仰了半寸，似乎嫌弃红薯皮上的炭灰会弄脏它雪白的剑鞘，可那缕剑穗却实诚得很，顺着魏无羡的手腕就缠了上去，不轻不重地扫过他的腕骨，像只讨食又爱干净的小猫。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;还挺挑。&quot;魏无羡笑出声，随手扯过帕子擦净指尖的灰，从旁边的竹篮里挑了一颗洗得干干净净、剥好壳的鲜莲子，搁在剑格凹陷处的云纹上，&quot;诺，这个干净，赏你的。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">浅蓝色的灵光在剑格处极快地闪了一下，那颗白生生的莲子倒也没少，只是瞬间被清冽的灵气裹了个严实，稳稳当当地嵌在云纹正中央，随着剑身极轻微的摇晃见了晃，看着竟有几分得意。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡伸出食指，在冰凉滑腻的剑鞘上弹了一下：&quot;跟你说，待会儿蓝湛从藏书阁回来，你可别告状说我拿吃食喂你。上次我在你剑柄上栓了个风乾的草编蚂蚱，他盯着看了足足一盏茶的功夫，害我还以为要被罚抄家规。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘剑鞘轻轻撞了撞他的掌心，力道温和得不像话，半点没有平日里削铁如泥的煞气。剑穗绕着他的拇指转了两圈，把刚才那颗裹了灵气的莲子又顶回了魏无羡手心里。</p>
+<p style="text-indent:2em;margin:0.5em 0;">莲子浸了避尘的灵气，触手微凉，入口却比寻常更添三分清甜。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡把莲子丢进嘴里嚼了嚼，顺手将避尘搂进怀里，下巴抵着微凉的剑首，懒洋洋地晃悠着小腿：&quot;还是你疼我。你说你们家主人怎么天天有那么多古籍要校？外头雨都快停了，他还——&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">话音未落，静室的门扉被人从外头轻轻推开。</p>
+<p style="text-align:center;font-weight:bold;margin:1em 0;">二</p>
+<p style="text-indent:2em;margin:0.5em 0;">门轴转动间带进一阵湿润的松木香。蓝忘机收了油纸伞立在廊下，一袭白衣纤尘不染，唯有衣摆处沾了星点不起眼的水痕。他手里除了两卷刚校完的古籍，还提着一个用油纸包得方方正正的小包，细麻绳在顶端系了个规整的十字结。</p>
+<p style="text-indent:2em;margin:0.5em 0;">怀里的避尘在听见脚步声的刹那，嗖地一下抽回缠在魏无羡手腕上的剑穗，剑身一僵，端端正正地滑回矮几的剑架上，连角度都分毫不差，俨然一柄清心寡欲、从不沾惹凡俗物的正经仙剑。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡被它这副翻脸不认人的架势逗得不行，嘴里还咬着半块红薯，含糊不清地招呼道：&quot;蓝湛，你回来啦！&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机目光先在剑架上端坐的避尘上掠过，瞧见剑格云纹里残留的一点水渍，神色未变，径直走到矮几旁坐下。他将古籍搁在一侧，把那个油纸包推到魏无羡面前：&quot;给你。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;什么好东西？&quot;魏无羡三两口咽下红薯，凑过去解开麻绳。油纸一层层掀开，里头露出一小捧炒得油亮饱满的糖炒栗子，壳上都裂着细口，还带着刚出锅没多久的温热。</p>
+<p style="text-indent:2em;margin:0.5em 0;">云深不知处离山下的彩衣镇不算近，这雨天路滑，蓝忘机去的是山顶的藏书阁，这包栗子却还热乎着。魏无羡伸手探了探油纸包底下，果然摸到一张折成小方块的保暖符，符纸边缘的朱砂笔迹端端正正，一看就是蓝忘机亲手画的。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;蓝二哥哥，你什么时候学会把符咒用在这种地方了？&quot;魏无羡拈起那张保暖符，眉眼弯弯地凑到蓝忘机眼前，&quot;以前在学堂里，是谁说符箓之道当用于正途，不可贪图口腹之欲来着？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机垂眸替他倒了一杯温水，推到他手边，避重就轻道：&quot;栗子凉了伤脾胃。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;哦，原来是为了我的脾胃，那自然是正途中的正途。&quot;魏无羡笑嘻嘻地接过茶盏喝了一口，剥开一颗栗子递到蓝忘机唇边，&quot;来，见者有份，你也尝尝甜不甜。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">栗子肉金黄软糯，还沾着魏无羡指尖的一点热意。蓝忘机垂眸看他一眼，没有推拒，微微偏头含住了那颗栗子，薄唇擦过魏无羡的指腹，极轻地一触即分。</p>
+<p style="text-indent:2em;margin:0.5em 0;">搁在剑架上的避尘不知是不是错觉，又轻轻颤了一下，剑穗顺着桌沿滑下来，啪嗒一声搭在蓝忘机的衣袖上。</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机嚼完栗子，伸出两根手指，将那缕越界的剑穗捏起来，放回剑架内侧，淡淡道：&quot;安分些。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘立刻不动了，连带着周身那点若有似无的荧光都收敛得干干净净。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡趴在矮几上，一手撑着下巴，一手慢悠悠地剥着栗子壳，目光在一人一剑之间来回打转：&quot;蓝湛，我怎么觉得避尘比你还粘人？刚才你不在，它还拿剑穗勾我的手呢。都说剑灵随主，它这么爱凑热闹，该不会其实是你——&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机执起茶壶的手微微一顿，浅色的眸子抬起来，定定地望进魏无羡含笑的眼底：&quot;是我如何？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">他靠得有些近，身上清冽的檀香混着方才外头沾染的秋雨气，严严实实地笼了过来。魏无羡原本只是随口调戏一句，冷不丁撞进那双专注得过分的眼睛里，耳根反倒莫名其妙地热了热。他干咳一声，把刚剥好的一颗栗子塞进自己嘴里，含糊道：&quot;我是说，你把剑养得真好，通人性！&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机看着他微红的耳尖，眼底掠过一丝极浅的笑意。他伸出手，用拇指替魏无羡擦掉嘴角沾着的一点栗子碎屑，动作自然又轻柔：&quot;嗯，随我。&quot;</p>
+<p style="text-align:center;font-weight:bold;margin:1em 0;">三</p>
+<p style="text-indent:2em;margin:0.5em 0;">午后雨歇，云层里漏下几缕暖融融的秋阳，把院子里的青石板晒出淡淡的水汽。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡吃饱喝足，闲不住地从木匣里翻出几块上好的紫竹，搬了张小竹椅坐在静室廊下削笛子。他手里的刻刀转得飞快，细碎的竹屑簌簌往下落，没一会儿便在脚边积了薄薄一层。</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘不知何时又从屋里剑架上溜达了出来，悄无声息地悬在廊柱旁。每当有竹屑飘到魏无羡衣摆上，剑鞘便轻轻一晃，带起一缕极淡的微风，将那些碎屑吹得干干净净，半片也没叫他沾身。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;哟，还会帮我扫竹屑呢？&quot;魏无羡停下刻刀，伸手在白玉剑鞘上拍了拍，&quot;避尘啊避尘，你老实交代，是不是蓝湛背地里教你什么讨好我的法子了？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘剑尖微垂，像是在认真打量他手里那截初具雏形的竹笛。听见这话，剑柄轻轻撞了撞他的膝盖，剑穗顺势往竹笛上一搭，绕着笛尾打了个转。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;想要穗子？&quot;魏无羡挑了挑眉，低头拎起避尘原有的那条浅蓝穗子瞧了瞧。许是跟着主人南征北战多年，丝绦末端已经有些轻微的磨损，虽然洗得一尘不染，到底看得出岁月的痕迹。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡摸着下巴琢磨片刻，起身回屋翻了翻自己的乾坤袋，从里头掏出两绺水红色的丝线，外加一枚莹润的小玉环：&quot;行啊，既然你今天帮我扫了半天竹屑，我就给你编个新的。不过丑话说在前头，我就这一种颜色的线，编出来你可别嫌太招摇。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘非但不嫌弃，反而往前凑了半寸，剑首几乎要搁进魏无羡怀里，催促似的轻轻点了两下。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡笑骂了一句&quot;急性子&quot;，把竹笛和刻刀搁在一旁，指尖翻飞着挽起绳结来。他手指本就修长灵活，编起络子来也是花样百出，没一会儿便打出了一个繁复精巧的同心结底子，正要把那枚小玉环穿进去，手背上忽然覆上一层温热。</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机不知何时换了一身常服走出来，顺势在他身侧的廊沿上坐下。他伸手握住魏无羡正在穿线的右手，目光落在他左手指腹的一道极浅的白痕上——那是方才削竹子时不小心被竹篾刮出来的，连血珠子都没冒，魏无羡自己压根没当回事。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;怎么不在屋里坐着？&quot;魏无羡任由他抓着手，笑吟吟地晃了晃另一只手里的红线，&quot;诺，避尘嫌它那旧穗子不好看，非缠着我给它编个新的。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">悬在一旁的避尘猛地抖了一下，剑身嗡鸣半声，似乎想辩解自己明明没有嫌弃旧穗子，奈何蓝忘机只是淡淡扫了它一眼，它便立刻老老实实地贴着廊柱悬好，动也不敢动了。</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机从袖中取出一只小巧的白瓷药瓶，拔开木塞，沾了一点清凉的药膏，仔仔细细地抹在魏无羡指腹那道白痕上：&quot;竹篾锋利，当心手。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">药膏带着淡淡的薄荷与白芷香气，被蓝忘机微热的指腹一点点揉开，酥酥麻麻的痒意顺着指尖直往心口钻。魏无羡看着他低垂的眼睫，故意动了动手指，去勾蓝忘机的掌心：&quot;这点印子哪就用得着上药了？含光君，你这药膏该不会也是随身带着专门候着我的吧？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机没有松手，反而顺势将他的五指拢进掌心里包住，指腹摩挲着他微凉的指节：&quot;你总是不当心。&quot;</p>
+<p style="text-align:center;font-weight:bold;margin:1em 0;">四</p>
+<p style="text-indent:2em;margin:0.5em 0;">他语气平淡，既无责备也无说教，偏偏听得魏无羡心头软成了一片。他干脆往蓝忘机肩头一靠，把手里编了一半的红线络子塞进蓝忘机手里：&quot;那我的手既然上了药，剩下的半截就劳烦含光君代劳啦。给你们家避尘换新衣裳，你这个做主人的总得出点力吧？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机低头看着掌心里那团水红色的丝线，又看了看那枚小玉环，没有推辞，接过来继续往下编。</p>
+<p style="text-indent:2em;margin:0.5em 0;">他的动作比魏无羡慢一些，却格外稳当，每一道绳结都收得紧实对称。水红的丝线绕在他修长白皙的指间，衬得那双手愈发好看。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡歪着头看了一会儿，视线不由自主地从那双手移到蓝忘机的侧脸上。阳光落在他挺直的鼻梁和浅色的唇瓣上，镀了一层柔和的金边。魏无羡眨了眨眼，忽然伸手从旁边竹篮里摸出一只红彤彤的沙果，咔嚓咬了一口：&quot;蓝湛，你会打这种结？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;在书上见过。&quot;蓝忘机头也没抬，将最后一缕丝线穿过玉环，打了个严丝合缝的收尾结。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;什么古籍还教人打同心结？&quot;魏无羡凑过去，鼻尖几乎要蹭到他的脸颊，&quot;藏书阁哪一层的书？我当年抄家规的时候怎么没翻到过？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机剪断多余的线头，转过头来。两人离得极近，呼吸交错间满是沙果清甜的果香。蓝忘机看着他亮晶晶的眸子，如实道：&quot;杂记第三卷，夹在民俗篇里。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;哦——原来含光君看杂记的时候，专挑这种民俗看啊。&quot;魏无羡拖长了语调，眼底的笑意藏都藏不住。</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘见那条新穗子编好了，终于按捺不住，小心翼翼地从廊柱旁飘过来，把剑柄递到两人中间。</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机却没有立刻把水红穗子系到避尘上。他先将避尘原有的那条浅蓝旧穗解了下来，妥帖地收进自己袖袋里，这才将那条水红配白玉环的新穗子系在剑柄尾端。</p>
+<p style="text-indent:2em;margin:0.5em 0;">清冷如霜雪的白玉剑鞘，配上一抹明艳鲜活的水红，非但半点不显突兀，反倒添了几分说不出的生机与亲昵。</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘满意极了，在半空中轻快地挽了个剑花，水红的丝绦在阳光下划出一道漂亮的弧线，随后稳稳地落回魏无羡膝头，用那枚刚穿好的小玉环蹭了蹭他的手背。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;看看，它多喜欢。&quot;魏无羡摸了摸那枚温润的玉环，转头冲蓝忘机笑，&quot;不过蓝湛，你把你那条旧穗子收起来干什么？我还以为你要扔了呢。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机隔着衣袖按了按胸口的位置，那里除了刚刚收进去的旧剑穗，还贴身放着几张早已被摩挲得边角发软的旧符纸，全都是魏无羡平日里随手画来逗他玩的。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;旧物也有旧物的用处。&quot;蓝忘机伸手替他拂去发间落着的一片极小的竹叶，手指顺着他鬓角滑下，轻轻托住他的后颈，&quot;凡是与你有关的，都收着。&quot;</p>
+<p style="text-align:center;font-weight:bold;margin:1em 0;">五</p>
+<p style="text-indent:2em;margin:0.5em 0;">日头偏西时，山林间的风便带上了深秋的凉意。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡把削了一半的竹笛收进乾坤袋，拍了拍衣摆上的灰，忽然想起前几日埋在后山竹林老桂花树下的两坛天子笑。算算日子，桂花落了满地，正是酒香最醇的时候，再不挖出来，怕是要便宜了后山那群嘴馋的山雀和野兔。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;蓝湛，走，带你去寻宝。&quot;魏无羡拽着蓝忘机的袖口就往外走。</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘不用人招呼，自觉地化作一道白光跟在两人身后半尺处，水红的剑穗在暮色里一晃一晃，活像条欢快的小尾巴。</p>
+<p style="text-indent:2em;margin:0.5em 0;">后山的竹林刚洗过雨，泥土松软湿润，踩上去悄无声息。到了那株合抱粗的老桂花树下，魏无羡蹲下身，四处比划了一下方位，正准备挽袖子用手去扒拉泥土，身旁的避尘已经先一步动了。</p>
+<p style="text-indent:2em;margin:0.5em 0;">只见白玉剑鞘稳稳当当地悬在树根左侧，剑尖甚至没出鞘，单凭一股柔和却巧劲十足的灵气往泥地里一掀，湿漉漉的泥土便整整齐齐地翻开两尺见方，露出底下裹着油布的两只黑陶酒坛，连坛身上的封泥都完好无损，半点土腥气也没沾到魏无羡手上。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;哎呀，我们避尘真是越来越能干了！&quot;魏无羡大喜过望，毫不吝啬地夸了一句，顺手摘下树枝上挂着的一小簇晚桂，别在了避尘剑格的云纹缝隙里，&quot;赏你的小花，好看吧？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">金黄细碎的桂花簇在雪白的剑格上，香气幽幽。避尘似乎有些不好意思，剑身极轻地左右摆了摆，却小心翼翼地敛着灵气护住那簇脆弱的花朵，生怕震落了一片花瓣。</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机站在树下，弯腰将两坛天子笑一并提了起来。原本要两只手才能抱稳的酒坛，在他手里轻若无物。他空出另一只手，自然而然地牵住魏无羡微凉的手指：&quot;风大，回屋喝。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;急什么，走回去酒都晃浑了，再说了，这儿风景多好。&quot;魏无羡反手扣住他的指缝，拉着他走到不远处的一块平整青石上坐下，拍了拍泥封，&quot;就在这儿尝一口，剩下一坛带回去温着喝。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机拗不过他，只好从袖中取出一方干净的素帕铺在青石上，才让魏无羡坐上去。他又从乾坤袖里摸出一只随身带着的小银杯——那是先前下山路过银楼时，瞧见杯壁上刻着莲花纹样，便顺手买下的，平日里总洗得干干净净带在身上。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡接过小银杯，指尖摩挲着杯壁上精致的浮雕莲瓣，嘴角止不住地往上翘：&quot;含光君，你这袖子里到底是个什么百宝箱？上午掏出热栗子和伤药，下午又能变出酒杯来，该不会连下酒的花生米都备好了吧？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机顿了顿，竟真的从袖袋内侧摸出一个巴掌大的小布囊，放在青石上推了过去。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡愣了一下，打开布囊一看，里头赫然是满满一袋剥了红衣、炒得酥脆喷香的椒盐花生米。</p>
+<p style="text-indent:2em;margin:0.5em 0;">这下魏无羡彻底乐不可支，笑得整个人都跌进蓝忘机怀里，肩膀一耸一耸的：&quot;蓝湛！你老实交代，你今天去藏书阁校书是假，背着我偷偷置办这些吃食才是真吧？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机伸手揽住他的腰，免得他笑得从青石上滑下去，耳根在暮色里透出一点极淡的薄红，语气却依旧一本正经：&quot;路过庖厨，顺手拿的。&quot;</p>
+<p style="text-align:center;font-weight:bold;margin:1em 0;">六</p>
+<p style="text-indent:2em;margin:0.5em 0;">云深不知处的庖厨什么时候有过椒盐花生米这种下酒菜？多半是他特意嘱咐了厨下备着，又亲自一颗颗搓掉了花生红衣。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡心里明镜似的，却也不拆穿他，只捏起一颗花生米丢进嘴里嚼得咔嚓响，随后拍开一坛天子笑的泥封，满满倒了一小银杯。</p>
+<p style="text-indent:2em;margin:0.5em 0;">清冽甘醇的酒香混着晚桂的甜香在林间散开。魏无羡先自己抿了一大口，舒服地眯起眼叹了口气，转手便将剩下的半杯递到蓝忘机唇边：&quot;尝一口？就半口，不会醉的，我保证。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机的酒量他是知道的，一杯倒，半口却是刚好能暖一暖身子。</p>
+<p style="text-indent:2em;margin:0.5em 0;">悬在一旁的避尘见状，立刻警觉地往前凑了凑，剑鞘横在酒杯下方，似乎生怕自家主人喝多了又要闹出什么动静来。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;去去去，小剑灵懂什么，一边玩去。&quot;魏无羡笑着拿手背挡开避尘，仰着脸看蓝忘机，&quot;喝不喝？这可是拿你送我的莲花杯装的。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机垂眸看着那只泛着柔光的小银杯，又看了看魏无羡亮得惊人的眼睛，到底没有拒绝，低头就着他的手，极浅地抿了一小口。</p>
+<p style="text-indent:2em;margin:0.5em 0;">辛辣甘冽的酒液滑入喉间，只这么一点点，便让蓝忘机向来清冷的眉眼染上了几分温润的暖意。他呼吸间带出极淡的酒气，垂在身侧的手指微微收紧，将魏无羡往自己怀里又带近了几分。</p>
+<p style="text-indent:2em;margin:0.5em 0;">避尘见主人真的喝了酒，急得在半空中转了半个圈，水红剑穗甩来甩去，最后索性啪嗒一声落在不远处的软草地上，剑身背对着两人，颇有些眼不见心不烦的架势。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡把剩下的半杯酒一饮而尽，顺手将小银杯揣进自己怀里贴身收好，随后双手环住蓝忘机的脖颈，鼻尖抵着他的鼻尖，轻声笑问：&quot;蓝二哥哥，头晕不晕？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;不晕。&quot;蓝忘机的声音比平日里低哑了半分，温热的手掌贴在魏无羡后腰上，隔着两层衣料往里透着热意。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;不晕你怎么抱得这么紧？&quot;魏无羡故意往他颈窝里蹭了蹭，呼吸喷洒在蓝忘机微凉的颈侧皮肤上，&quot;我看避尘都比你清醒，知道在旁边给我们放哨呢。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机偏过头，下巴轻轻抵着魏无羡的发顶，目光越过他的肩头，看了一眼草地上那柄假装木头、偏偏剑格上的桂花还在一颤一颤的佩剑，缓缓道：&quot;它不懂。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;它不懂什么？&quot;魏无羡抬起头，下巴搁在蓝忘机肩窝里，眨巴着眼问。</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机抬起手，修长的手指轻轻抚过魏无羡带着酒意的唇角，动作慢得近乎虔诚：&quot;不懂我并非因酒才想抱你。&quot;</p>
+<p style="text-align:center;font-weight:bold;margin:1em 0;">七</p>
+<p style="text-indent:2em;margin:0.5em 0;">林间的风停了一瞬，连枝头簌簌落下的桂花都像是慢了半拍。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡怔了怔，心跳猛地漏了一拍，紧接着便像是有只小鹿在胸膛里横冲直撞起来。他平日里没脸没皮地撩拨惯了，真听到蓝忘机用这么正经又低沉的语气说出这种话，反倒有些招架不住，连耳廓带脖颈都漫上一层薄粉。</p>
+<p style="text-indent:2em;margin:0.5em 0;">草地上的避尘偷偷把剑尖转回来一点，水红的剑穗在草叶间轻轻扫了扫，像是在悄悄打量这边的动静。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;蓝湛……&quot;魏无羡手指无意识地揪紧了他背后的衣料，嘴上还想强撑着逗他，&quot;你这半口酒的后劲也太大了吧，连情话都会说了？&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机垂眸凝视着他，浅琉璃色的眸子里映着漫山暮色，更映着一个完完整整的魏无羡。他没有顺着玩笑话往下接，而是握住魏无羡的手，引着他摸向自己胸口内襟的位置。</p>
+<p style="text-indent:2em;margin:0.5em 0;">隔着微凉的布料，那里鼓起小小的一块，既有方才收进去的旧剑穗，也有早先攒下的符纸，每一件都被体温焐得温热。</p>
+<p style="text-indent:2em;margin:0.5em 0;">&quot;不是酒话。&quot;蓝忘机掌心覆在他手背上，力道坚定而温和，&quot;魏婴，我心悦你。非自今日始，亦非止于今朝。&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">没有天花乱坠的誓言，只有贴在心口的一叠旧物，和掌心里实实在在的温度。</p>
+<p style="text-indent:2em;margin:0.5em 0;">魏无羡看着他认真的眉眼，心头那点慌乱忽然全都化成了满溢出来的甜意。他弯起眼睛笑了起来，主动凑上去，在蓝忘机微凉的唇上重重亲了一下：&quot;巧了，我也心悦含光君，喜欢得不得了！&quot;</p>
+<p style="text-indent:2em;margin:0.5em 0;">话音刚落，他顺手一招，草地上的避尘立刻欢快地飞回两人手边，剑格上那簇金桂香气扑鼻。</p>
+<p style="text-indent:2em;margin:0.5em 0;">蓝忘机一手提着剩下的那坛天子笑，一手与魏无羡十指相扣，缓步往静室走去。避尘慢悠悠地跟在身侧，水红的新穗子随着步伐一晃一晃，偶尔碰一碰魏无羡的衣摆，又蹭一蹭蓝忘机的袖口，一路伴着溶溶月色，踏碎了满地桂花香。</p></div>
+<script>
+document.getElementById('copyBtn').addEventListener('click', async () => {
+  const status = document.getElementById('status');
+  try {
+    const content = document.getElementById('content');
+    const html = content.innerHTML;
+    const text = content.innerText;
+    const item = new ClipboardItem({
+      'text/html': new Blob([html], {type: 'text/html'}),
+      'text/plain': new Blob([text], {type: 'text/plain'})
+    });
+    await navigator.clipboard.write([item]);
+    status.textContent = 'OK 已复制 112 段，共 7228 字，去 LOFTER 编辑器粘贴吧';
+    status.className = 'ok';
+  } catch (e) {
+    status.textContent = 'FAIL: ' + e.message;
+    status.className = 'fail';
+  }
+});
+</script>
+</body>
+</html>
